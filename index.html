@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Course Home Page for WDD231">
+    <meta name="author" content="Francina Shanana">
+    <title>Course Home Page</title>
+    <link rel="stylesheet" href="styles/home-page.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <script src="script/home-page.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="profile">
+            <img src="images/fin.jpg" alt="Profile Picture">
+            <h1>Francina Shanana</h1>
+        </div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="chamber.html">Chamber</a></li>
+                <li><a href="github-profile.html">GitHub Profile</a></li>
+                <li><a href="https://www.linkedin.com/in/francina-shanana-b911b8a9?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BVfBa4hDlRN6HthsnvwuO6A%3D%3D">LinkedIn</a></li>
+            </ul>
+            <div class="hamburger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="row">
+            <section class="course-work">
+                <h2>Course Work</h2>
+                <ul>
+                    <li>W01 Assignment: Course Home Page</li>
+                    <li>W01 Ponder: 60-second Status Update</li>
+                    <li>W01 Evaluation</li>
+                    <li>W02 Prepare: Learning Activities</li>
+                    <li>W02 Assignment: Chamber Directory Page</li>
+                    <li>W02 Ponder: 60-second Status Update</li>
+                    <li>W02 Evaluation</li>
+                    <li>W03 Prepare: Learning Activities</li>
+                    <li>W03 Assignment: Chamber Home Page</li>
+                    <li>W03 Team Activity: Report</li>
+                    <li>W03 Ponder: 60-second Status Update</li>
+                    <li>W03 Student Feedback to Instructor</li>
+                    <li>W03 Evaluation</li>
+                    <li>W04 Prepare: Learning Activities</li>
+                    <li>W04 Website Project: Subject</li>
+                    <li>W04 Assignment: Chamber Join Page</li>
+                    <li>W04 Team Activity: Report</li>
+                    <li>W04 Ponder: 60-second Status Update</li>
+                    <li>W04 Evaluation</li>
+                    <li>W05 Reminder: Register for your Next Class (Block 2) </li>
+                    <li>W05 Prepare: Learning Activities</li>
+                    <li>W05 Website Project: Site Plan</li>
+                    <li>W05 Assignment: Chamber Discover Page</li>
+                    <li>W05 Team Activity: Report</li>
+                    <li>W05 Ponder: 60-second Status Update</li>
+                    <li>W05 Evaluation</li>
+                    <li>W06 Website Project</li>
+                    <li>W06 Evaluation</li>
+                    <li>W07 Final Exam</li>
+                    <li>W07 End-of-Course Evaluation</li>
+                    <li>W07 Evaluation</li>
+                </ul>
+            </section>
+            <section class="location">
+                <h2>Bulawayo, Zimbabwe</h2>
+                <img src="images/elephants.jpg" alt="Elephants">
+                <p>Elephants</p>
+            </section>
+        </div>
+        <section id="certificate">
+            <h2>Web and Computer Programming Certificate</h2>
+            <div class="filter-buttons">
+                <button onclick="filterCourses('All')">All</button>
+                <button onclick="filterCourses('CSE')">CSE</button>
+                <button onclick="filterCourses('WDD')">WDD</button>
+            </div>
+            <div class="courses"></div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; <span id="currentyear"></span> Francina Shanana 🌸 Zimbabwe ZWE</p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+</html>

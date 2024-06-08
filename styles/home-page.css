@@ -1,0 +1,166 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #f4f4f4;
+}
+
+header {
+    background: #235789;
+    color: white;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header .profile {
+    text-align: center;
+}
+
+header .profile img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+header nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.nav-links li {
+    margin: 0 1rem;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hamburger {
+    display: none;
+    cursor: pointer;
+}
+
+.hamburger .line {
+    width: 25px;
+    height: 3px;
+    background: white;
+    margin: 5px;
+}
+
+main {
+    flex: 1;
+    padding: 2rem;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.course-work, .location {
+    padding: 1rem;
+    box-sizing: border-box;
+}
+
+.course-work {
+    flex: 2;
+}
+
+.location {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main section h2 {
+    background-color: #235789;
+    color: white;
+    padding: 0.5rem;
+    text-align: center;
+}
+
+main section img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 1rem 0;
+}
+
+.filter-buttons {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+.filter-buttons button {
+    margin: 0 0.5rem;
+    padding: 0.5rem 1rem;
+    border: none;
+    background-color: #235789;
+    color: white;
+    cursor: pointer;
+}
+
+.courses {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.course-card {
+    background-color: #666;
+    color: white;
+    padding: 1rem;
+    margin: 0.5rem;
+    width: 100px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.course-card.completed {
+    background-color: #A0522D;
+}
+
+footer {
+    background: #235789;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+@media (max-width: 768px) {
+    .nav-links {
+        display: none;
+        flex-direction: column;
+    }
+    
+    .nav-links.active {
+        display: flex;
+    }
+    
+    .hamburger {
+        display: block;
+    }
+    
+    .row {
+        flex-direction: column;
+    }
+}
