@@ -74,7 +74,8 @@ main {
     flex-wrap: wrap;
 }
 
-.course-work, .location {
+.course-work,
+.location {
     padding: 1rem;
     box-sizing: border-box;
 }
@@ -151,15 +152,15 @@ footer {
         display: none;
         flex-direction: column;
     }
-    
+
     .nav-links.active {
         display: flex;
     }
-    
+
     .hamburger {
         display: block;
     }
-    
+
     .row {
         flex-direction: column;
     }
