@@ -1,0 +1,19 @@
+[
+    {
+        "name": "Company One",
+        "address": "123 Main St, City, State, ZIP",
+        "phone": "555-123-4567",
+        "website": "https://www.companyone.com",
+        "image": "company1.png",
+        "membershipLevel": 1
+    },
+    {
+        "name": "Company Two",
+        "address": "456 Elm St, City, State, ZIP",
+        "phone": "555-234-5678",
+        "website": "https://www.companytwo.com",
+        "image": "company2.png",
+        "membershipLevel": 2
+    }
+   
+]
