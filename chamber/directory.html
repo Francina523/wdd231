@@ -1,65 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Chamber of Commerce Directory">
-    <meta name="author" content="Your Name">
-    <title>Chamber of Commerce Directory</title>
-    <link rel="stylesheet" href="css/style.css">
-    <!-- Add favicon link here -->
-
-    <!-- Social media meta tags (replace with actual values) -->
-    <meta property="og:title" content="Chamber of Commerce Directory">
-    <meta property="og:type" content="website">
-    <meta property="og:image" content="path_to_image">
-    <meta property="og:url" content="https://example.com">
-
-    <!-- JavaScript for dynamic functionality (if needed) -->
-    <script src="js/script.js" defer></script>
+    <title>Economic Development Digest Chamber of Commerce</title>
+    <meta name="description" content="Chamber of Commerce for WDD231">
+    <meta name="author" content="Francina Shanana">
+    <link rel="stylesheet" href="styles/directory.css">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon1.png">
 </head>
-
 <body>
-    <!-- Header section -->
     <header>
+        <div class="logo">
+            <img src="images/logo.png" alt="Economic Development Digest Chamber of Commerce">
+            <h1>Economic Development Digest Chamber of Commerce</h1>
+        </div>
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
-                <li><a href="discover.html">Discover</a></li>
                 <li><a href="directory.html">Directory</a></li>
                 <li><a href="join.html">Join</a></li>
+                <li><a href="discover.html">Discover</a></li>
             </ul>
         </nav>
     </header>
-
-    <!-- Main content section -->
+    <section class="hero">
+        <img src="images/hero2.jpg" alt="scalable, responsive hero image">
+        <button class="keynote-btn">Keynote Tickets</button>
+    </section>
     <main>
-        <section class="members">
-            <div class="view-toggle">
-                <button id="grid-view">Grid View</button>
-                <button id="list-view">List View</button>
+        <section class="info-section">
+            <div class="upcoming-events">
+                <h2>Upcoming Events</h2>
+                <div id="events-list">
+                    <!-- Events will be dynamically inserted here -->
+                </div>
             </div>
-
+            <div class="current-weather">
+                <h2>Current Weather</h2>
+                <div id="weather-info">
+                    <!-- Weather data will be dynamically inserted here -->
+                </div>
+            </div>
+            <div class="weather-forecast">
+                <h2>Weather Forecast</h2>
+                <div id="forecast-info">
+                    <!-- Forecast data will be dynamically inserted here -->
+                </div>
+            </div>
+        </section>
+        <section class="businesses">
+            <h2>Featured Businesses</h2>
             <div class="member-grid">
-                <!-- Member cards will be dynamically generated here -->
+                <!-- Members will be dynamically inserted here -->
             </div>
-
-            <ul class="member-list">
-                <!-- Member list items will be dynamically generated here -->
+            <ul class="member-list" style="display: none;">
+                <!-- Members will be dynamically inserted here as list -->
             </ul>
+            <button id="grid-view">Grid View</button>
+            <button id="list-view">List View</button>
         </section>
     </main>
-
-    <!-- Footer section -->
     <footer>
-        <div class="contact-info">
-            <!-- Contact information as per project specifications -->
-        </div>
-        <div class="development-info">
-            <!-- Developer's name, course info, last modified date -->
+        <div class="footer-content">
+            <address>
+                Economic Development Digest Chamber of Commerce<br>
+                No. 10 J. Moyo<br>
+                15th Avenue<br>
+                <a href="mailto:info@economicdevdigestcoc.org">info@economicdevdigestcoc.org</a><br>
+                (263) 774320424
+            </address>
+            <div class="social-media">
+                <a href="#"><img src="images/facebook.png" alt="Facebook"></a>
+                <a href="#"><img src="images/instagram.jpg" alt="Instagram"></a>
+                <a href="#"><img src="images/linkedin.jpg" alt="LinkedIn"></a>
+                <a href="#"><img src="images/twitter.png" alt="Twitter"></a>
+            </div>
+            <div class="development-info">
+                <!-- Developer and last modified info will be dynamically inserted here -->
+            </div>
         </div>
     </footer>
+    <script src="scripts/directory.js"></script>
 </body>
-
 </html>
