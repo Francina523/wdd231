@@ -3,10 +3,10 @@
         {
             "name": "GoDigital Zimbabwe",
             "address": "Sterling House, J. moyo St and 8th Ave, Jason Moyo St, Bulawayo",
-            "phone": " (263) 78 605 0034",
+            "phone": "(263) 78 605 0034",
             "url": "http://hwangenationalpark.org.zw/cm-business/godigital-zimbabwe/",
             "image": "godig.png",
-            "membership_level": 1,
+            "membership_level": "Gold",
             "tagLine": "Your trusted partner in success"
         },
         {
@@ -15,89 +15,73 @@
             "phone": "(263) 77 819 9118",
             "url": "http://www.xyzsolutions.com",
             "image": "mesh.png",
-            "membership_level": 2,
+            "membership_level": "Silver",
             "tagLine": "Creation, Growth, Sustainability, Evolution"
         },
         {
             "name": "Econet Wireless",
-            "address": "Headquarters: No. 2 Old Mutare Road, Msasa, Harare, Zimbabwe,",
-            "phone": "(263) 772 7949 4973",
-            "url": "https://www.econet.co.zw/contact-us/",
+            "address": "Head Office, 20th Avenue, R. Mugabe, Bulawayo",
+            "phone": "(263) 77 406 0314",
+            "url": "http://www.econetwireless.com",
             "image": "econet.png",
-            "membership_level": 3,
-            "tagLine": "Inspired to Change your World"
+            "membership_level": "Gold",
+            "tagLine": "Inspired to change your world"
         },
         {
-            "name": "Old Mutual",
-            "address": "101 Maple St, Springfield, USA",
-            "phone": "(263) 242 308400",
-            "url": "https://www.oldmutual.co.zw/contact-us/",
-            "image": "oldmutual.png",
-            "membership_level": 1,
-            "tagLine": "Shaping the future of business"
+            "name": "Dhliwayo J Investments",
+            "address": "118 G Silundika Street, Harare",
+            "phone": "(263) 71 768 2222",
+            "url": "http://www.dhliwayo.co.zw",
+            "image": "dhli.png",
+            "membership_level": "Silver",
+            "tagLine": "Your Vision Our Solutions"
         },
         {
-            "name": "ZIDA Invest",
-            "address": "Cnr Jason Moyo & Sam Nujoma St. ZB Life Towers, 1st Floor Harare, Zimbabwe",
-            "phone": "(263) 8688002639-42",
-            "url": "https://zidainvest.com/contact-us/",
-            "image": "zida.png",
-            "membership_level": 2,
-            "tagLine": "Friendly investment solutions"
+            "name": "ZB Bank",
+            "address": "63 G Silundika Street, Harare",
+            "phone": "(263) 71 768 2222",
+            "url": "http://www.zb.co.zw",
+            "image": "zb.png",
+            "membership_level": "Gold",
+            "tagLine": "Your Vision Our Solutions"
         },
         {
-            "name": "Zimbabwe Companies Registry",
-            "address": "Zimbabwe at Pockets Building, 50 Jason Moyo Avenue, 2nd Floor, Room 208 & 209, Harare, Harare, Zimbabwe. ",
-            "phone": "263 (0242) 753 168",
-            "url": "https://www.zimbabwecompaniesregistry.org/",
-            "image": "reg.png",
-            "membership_level": 3,
-            "tagLine": "Connecting businesses worldwide"
+            "name": "Standard Chartered",
+            "address": "67 G Silundika Street, Harare",
+            "phone": "(263) 71 768 2222",
+            "url": "http://www.stanchartered.co.zw",
+            "image": "stanchartered.png",
+            "membership_level": "Silver",
+            "tagLine": "Your Vision Our Solutions"
         },
         {
-            "name": "Mukuru.com",
-            "address": "Building 20, The Waverly Business Park",
-            "phone": "(263) 867 700 9604",
-            "url": "https://www.mukuru.com/zw/help-support/contact-us/?gclid=CjwKCAjw1emzBhB8EiwAHwZZxWoCPULAEmjLDpXGKXHjP4FuiJuRCUzrqC1om79-MYa4KYNDrMECPxoCOVYQAvD_BwE",
-            "image": "mukuru.png",
-            "membership_level": 1,
-            "tagLine": "Connecting Families"
+            "name": "MBCA Bank",
+            "address": "G Silundika Street, Harare",
+            "phone": "(263) 71 768 2222",
+            "url": "http://www.mbca.co.zw",
+            "image": "mbca.png",
+            "membership_level": "Gold",
+            "tagLine": "Your Vision Our Solutions"
         }
     ],
     "events": [
         {
-            "name": "Marketing Association Zimbabwe",
-            "date": "2024-07-10",
-            "location": "City Hall, Bulawayo",
-            "description": "Join us for an evening of networking and business growth opportunities."
+            "name": "Economic Outlook 2021",
+            "date": "14th February 2024",
+            "location": "Bulawayo",
+            "description": "Annual event discussing the economic outlook for the upcoming year."
         },
         {
-            "name": "Satenga Investments",
-            "date": "2024-08-15",
-            "location": "Satenga Farm",
-            "description": "A conference to share and learn agric ideas."
+            "name": "Business Networking Dinner",
+            "date": "25th May 2024",
+            "location": "Harare",
+            "description": "A networking event bringing together business leaders from various sectors."
         },
         {
-            "name": "Nedbank Zimbabwe",
-            "date": "2024-09-20",
-            "location": "Pioneer House",
-            "description": "Showcasing the latest in eco-friendly technology and innovations."
+            "name": "Tech Innovations Conference",
+            "date": "10th August 2024",
+            "location": "Bulawayo",
+            "description": "Conference showcasing the latest technological innovations."
         }
-    ],
-    "weather": {
-        "current": {
-            "temperature": "75°F",
-            "condition": "Sunny",
-            "high": "80°F",
-            "low": "65°F",
-            "humidity": "50%",
-            "sunrise": "6:00 AM",
-            "sunset": "8:00 PM"
-        },
-        "forecast": {
-            "today": "Sunny, High: 80°F, Low: 65°F",
-            "wednesday": "Partly Cloudy, High: 78°F, Low: 63°F",
-            "thursday": "Rainy, High: 70°F, Low: 60°F"
-        }
-    }
+    ]
 }

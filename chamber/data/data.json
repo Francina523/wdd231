@@ -3,10 +3,10 @@
         {
             "name": "GoDigital Zimbabwe",
             "address": "Sterling House, J. moyo St and 8th Ave, Jason Moyo St, Bulawayo",
-            "phone": " (263) 78 605 0034",
+            "phone": "(263) 78 605 0034",
             "url": "http://hwangenationalpark.org.zw/cm-business/godigital-zimbabwe/",
             "image": "godig.png",
-            "membership_level": 1,
+            "membership_level": "Gold",
             "tagLine": "Your trusted partner in success"
         },
         {
@@ -15,89 +15,73 @@
             "phone": "(263) 77 819 9118",
             "url": "http://www.xyzsolutions.com",
             "image": "mesh.png",
-            "membership_level": 2,
+            "membership_level": "Silver",
             "tagLine": "Creation, Growth, Sustainability, Evolution"
         },
         {
             "name": "Econet Wireless",
-            "address": "Headquarters: No. 2 Old Mutare Road, Msasa, Harare, Zimbabwe,",
-            "phone": "(263) 772 7949 4973",
-            "url": "https://www.econet.co.zw/contact-us/",
+            "address": "Head Office, 20th Avenue, R. Mugabe, Harare",
+            "phone": "(263) 77 406 0314",
+            "url": "http://www.econetwireless.com",
             "image": "econet.png",
-            "membership_level": 3,
-            "tagLine": "Inspired to Change your World"
+            "membership_level": "Gold",
+            "tagLine": "Inspired to change your world"
+        },
+        {
+            "name": "Marketers Association of Zimbabwe",
+            "address": "118 G Silundika Street, Harare",
+            "phone": "(263) 71 768 2222",
+            "url": "https://www.maz.co.zw",
+            "image": "maz.png",
+            "membership_level": "Silver",
+            "tagLine": "Synergies for the Future"
+        },
+        {
+            "name": "Mukuru Zimbabwe",
+            "address": "63 G Silundika Street, Harare",
+            "phone": "(263) 8677009604",
+            "url": "https://www.mukuru.com",
+            "image": "mukuru.png",
+            "membership_level": "Gold",
+            "tagLine": "Your Vision Our Solutions"
         },
         {
             "name": "Old Mutual",
-            "address": "101 Maple St, Springfield, USA",
-            "phone": "(263) 242 308400",
-            "url": "https://www.oldmutual.co.zw/contact-us/",
+            "address": "67 G Silundika Street, Harare",
+            "phone": "(263) 433",
+            "url": "https://www.oldmutual.co.zw",
             "image": "oldmutual.png",
-            "membership_level": 1,
-            "tagLine": "Shaping the future of business"
+            "membership_level": "Silver",
+            "tagLine": "Solutions to your Financial Needs"
         },
         {
-            "name": "ZIDA Invest",
-            "address": "Cnr Jason Moyo & Sam Nujoma St. ZB Life Towers, 1st Floor Harare, Zimbabwe",
-            "phone": "(263) 8688002639-42",
-            "url": "https://zidainvest.com/contact-us/",
-            "image": "zida.png",
-            "membership_level": 2,
-            "tagLine": "Friendly investment solutions"
-        },
-        {
-            "name": "Zimbabwe Companies Registry",
-            "address": "Zimbabwe at Pockets Building, 50 Jason Moyo Avenue, 2nd Floor, Room 208 & 209, Harare, Harare, Zimbabwe. ",
-            "phone": "263 (0242) 753 168",
-            "url": "https://www.zimbabwecompaniesregistry.org/",
-            "image": "reg.png",
-            "membership_level": 3,
-            "tagLine": "Connecting businesses worldwide"
-        },
-        {
-            "name": "Mukuru.com",
-            "address": "Building 20, The Waverly Business Park",
-            "phone": "(263) 867 700 9604",
-            "url": "https://www.mukuru.com/zw/help-support/contact-us/?gclid=CjwKCAjw1emzBhB8EiwAHwZZxWoCPULAEmjLDpXGKXHjP4FuiJuRCUzrqC1om79-MYa4KYNDrMECPxoCOVYQAvD_BwE",
-            "image": "mukuru.png",
-            "membership_level": 1,
-            "tagLine": "Connecting Families"
+            "name": "Nedbank Corporate Bank",
+            "address": "J. Nkomo, Bulawayo",
+            "phone": "(263) 292-76278",
+            "url": "https://www.nedbank.co.zw",
+            "image": "nedbank.jpg",
+            "membership_level": "Gold",
+            "tagLine": "Welcome"
         }
     ],
     "events": [
         {
-            "name": "Marketing Association Zimbabwe",
-            "date": "2024-07-10",
-            "location": "City Hall, Bulawayo",
-            "description": "Join us for an evening of networking and business growth opportunities."
+            "name": "Economic Outlook 2021",
+            "date": "24th July 2024",
+            "location": "Bulawayo",
+            "description": "Annual event discussing the economic outlook for the upcoming year."
         },
         {
-            "name": "Satenga Investments",
-            "date": "2024-08-15",
-            "location": "Satenga Farm",
-            "description": "A conference to share and learn agric ideas."
+            "name": "Business Networking Dinner",
+            "date": "25th September 2024",
+            "location": "Harare",
+            "description": "A networking event bringing together business leaders from various sectors."
         },
         {
-            "name": "Nedbank Zimbabwe",
-            "date": "2024-09-20",
-            "location": "Pioneer House",
-            "description": "Showcasing the latest in eco-friendly technology and innovations."
+            "name": "Tech Innovations Conference",
+            "date": "10th October 2024",
+            "location": "Bulawayo",
+            "description": "Conference showcasing the latest technological innovations."
         }
-    ],
-    "weather": {
-        "current": {
-            "temperature": "75°F",
-            "condition": "Sunny",
-            "high": "80°F",
-            "low": "65°F",
-            "humidity": "50%",
-            "sunrise": "6:00 AM",
-            "sunset": "8:00 PM"
-        },
-        "forecast": {
-            "today": "Sunny, High: 80°F, Low: 65°F",
-            "wednesday": "Partly Cloudy, High: 78°F, Low: 63°F",
-            "thursday": "Rainy, High: 70°F, Low: 60°F"
-        }
-    }
+    ]
 }
