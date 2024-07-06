@@ -1,0 +1,21 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+  }
+  
+  main {
+    margin-top: 20px;
+  }
+  
+  figure {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  #weather-icon {
+    width: 100px; /* Adjust icon size as needed */
+    height: 100px;
+  }
+  

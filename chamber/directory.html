@@ -1,42 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Economic Development Digest Chamber of Commerce</title>
-        <meta name="description" content="Chamber of Commerce for WDD231">
-        <meta name="author" content="Francina Shanana">
-        <link rel="stylesheet" href="styles/directory.css">
-        <link rel="icon" type="image/png" sizes="16x16" href="images/favicon.png">
-        <link rel="icon" type="image/png" sizes="32x32" href="images/favicon1.png">
-        
-        <!-- Open Graph Meta Tags -->
-        <meta property="og:title" content="Economic Development Digest Chamber of Commerce">
-        <meta property="og:type" content="website">
-        <meta property="og:description" content="Chamber of Commerce for WDD231">
-        <meta property="og:image" content=" Link to chamber site">
-        <meta property="og:url" content="URL of your website">
-    </head>
-    <body>
-        <header>
-            <div class="logo">
-                <img src="images/logo.png" alt="Economic Development Digest Chamber of Commerce">
-                <h1>Economic Development Digest Chamber of Commerce</h1>
-            </div>
-            <nav>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="directory.html">Directory</a></li>
-                    <li><a href="join.html">Join</a></li>
-                    <li><a href="discover.html">Discover</a></li>
-                </ul>
-            </nav>
-        </header>
-    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Economic Development Digest Chamber of Commerce</title>
+    <meta name="description" content="Chamber of Commerce for WDD231">
+    <meta name="author" content="Francina Shanana">
+    <link rel="stylesheet" href="styles/chamber.css">
+    <link rel="icon" type="image/png" href="images/favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="images/favicon-16x16.png" sizes="16x16" />
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Economic Development Digest Chamber of Commerce">
+    <meta property="og:type" content="website">
+    <meta property="og:description" content="Chamber of Commerce for WDD231">
+    <meta property="og:image" content=" Link to chamber site">
+    <meta property="og:url" content="URL of your website">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="images/1logo.png" alt="Economic Development Digest Chamber of Commerce">
+            <h1>Economic Development Digest Chamber of Commerce</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="directory.html">Directory</a></li>
+                <li><a href="join.html">Join</a></li>
+                <li><a href="discover.html">Discover</a></li>
+            </ul>
+        </nav>
+    </header>
+
     <section class="hero">
-        <img src="images/hero2.jpg" alt="scalable, responsive hero image">
-        <button class="keynote-btn">Keynote Tickets</button>
+        <img src="images/city.jpg" alt="scalable, responsive hero image">
+        <button class="cta-link">Keynote Tickets</button>
     </section>
+
     <main>
         <section class="info-section">
             <div class="upcoming-events">
@@ -58,9 +59,10 @@
                 </div>
             </div>
         </section>
+
         <section class="businesses">
             <h2>Featured Businesses</h2>
-            <div class="member-grid">
+            <div class="member-grid" id="member-grid">
                 <!-- Members will be dynamically inserted here -->
             </div>
             <ul class="member-list" style="display: none;">
@@ -70,6 +72,7 @@
             <button id="list-view">List View</button>
         </section>
     </main>
+
     <footer>
         <div class="footer-content">
             <address>
@@ -83,13 +86,14 @@
                 <a href="#"><img src="images/facebook.png" alt="Facebook"></a>
                 <a href="#"><img src="images/instagram.jpg" alt="Instagram"></a>
                 <a href="#"><img src="images/linkedin.jpg" alt="LinkedIn"></a>
-                <a href="#"><img src="images/twitter.png" alt="Twitter"></a>
+                <a href="#"><img src="images/twt.jpg" alt="Twitter"></a>
             </div>
             <div class="development-info">
                 <!-- Developer and last modified info will be dynamically inserted here -->
             </div>
         </div>
     </footer>
-    <script src="scripts/directory.js"></script>
+
+    <script src="scripts/chamber.js" defer></script>
 </body>
 </html>
