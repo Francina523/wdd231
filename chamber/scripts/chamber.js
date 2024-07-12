@@ -8,8 +8,8 @@ document.addEventListener("DOMContentLoaded", () => {
     const forecastInfo = document.getElementById('forecast-info');
     const footerDevelopmentInfo = document.querySelector('.development-info');
 
-    // WakaTime API Key and location
-    const WAKATIME_API_KEY = 'waka_4dcfc009-b1b8-49ec-ba37-9c79ed955932';
+    // OpenWeatherMap API Key and location
+    const OPENWEATHERMAP_API_KEY = 'af013bc8be0d66d4e3055564684d6baf';
     const latitude = -20.14;
     const longitude = 28.59;
 
@@ -24,17 +24,17 @@ document.addEventListener("DOMContentLoaded", () => {
             console.log('Fetched data:', data);
             displayMembers(data.members, 7); // Display all 7 members for directory.html
             displayEvents(data.events);
-            await fetchWeather(); // Fetch weather data from WakaTime API
+            await fetchWeather(); // Fetch weather data from OpenWeatherMap API
             displaySpotlightMembers(data.members); // Display 3 random members for index.html
         } catch (error) {
             console.error('Error fetching data:', error);
         }
     }
 
-    // Function to fetch weather data from WakaTime API
+    // Function to fetch weather data from OpenWeatherMap API
     async function fetchWeather() {
         try {
-            const response = await fetch(`https://api.wakatime.com/v1/weather?lat=${latitude}&lon=${longitude}&key=${WAKATIME_API_KEY}`);
+            const response = await fetch(`https://api.openweathermap.org/data/2.5/onecall?lat=-20.4 &lon=28.59 &exclude=hourly,minutely&units=metric&appid=af013bc8be0d66d4e3055564684d6baf`);
             if (!response.ok) {
                 throw new Error('Failed to fetch weather data');
             }

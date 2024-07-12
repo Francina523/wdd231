@@ -1,0 +1,92 @@
+/* Global Styles */
+body {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.6;
+    background-color: #f5f5f5;
+    color: #444444;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3 {
+    font-family: 'Roboto', sans-serif;
+    color: #336633;
+}
+
+p {
+    margin-bottom: 1.5em;
+}
+
+/* Specific Styles for Sections */
+#site-name {
+    margin-bottom: 2em;
+}
+
+#scenarios ul {
+    list-style-type: disc;
+    margin-left: 2em;
+}
+
+#color-schema, #typography, #wireframe {
+    margin-bottom: 3em;
+}
+
+#wireframe img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ccc;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+/* Header Styles */
+header {
+    background-color: #336633;
+    color: #ffffff;
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo img {
+    max-height: 150px; /* Increase size of the logo */
+    margin-right: 10px; /* Add some spacing between logo and site name */
+}
+
+#site-name {
+    display: flex;
+    align-items: center; /* Align site name vertically with logo */
+}
+
+#site-name h1 {
+    margin: 0;
+    font-size: 1.8em;
+    font-weight: bold;
+    text-transform: uppercase;
+    color:#ffffff
+}
+
+#site-name p {
+    margin: 0;
+    font-size: 0.8em;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #336633;
+    color: #ffffff;
+    padding: 1em;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+#developer-info {
+    font-size: 0.8em;
+}
+
+#last-modified {
+    font-style: italic;
+}
