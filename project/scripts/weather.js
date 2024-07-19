@@ -26,7 +26,6 @@ function displayCurrentWeather(data) {
     const weatherIcon = `https://openweathermap.org/img/wn/${weather[0].icon}.png`;
 
     currentWeatherElement.innerHTML = `
-        <h3>Current Weather</h3>
         <img src="${weatherIcon}" alt="${weather[0].description}" class="weather-icon">
         <p><strong>${data.name}</strong></p>
         <p>Temperature: ${main.temp}°C</p>
@@ -38,14 +37,15 @@ function displayCurrentWeather(data) {
 function displayForecast(data) {
     const forecastElement = document.getElementById('forecast');
     const forecastList = data.list.filter(item => item.dt_txt.includes('12:00:00')).slice(0, 3); // Take the next 3 days of forecast
-    forecastElement.innerHTML = '<h3>3-Day Forecast</h3>';
+
+    let forecastHTML = '';
     
     forecastList.forEach(item => {
         const date = new Date(item.dt * 1000).toLocaleDateString();
         const { main, weather, wind } = item;
         const weatherIcon = `https://openweathermap.org/img/wn/${weather[0].icon}.png`;
 
-        forecastElement.innerHTML += `
+        forecastHTML += `
             <div class="forecast-card">
                 <h4>${date}</h4>
                 <img src="${weatherIcon}" alt="${weather[0].description}" class="weather-icon">
@@ -55,6 +55,8 @@ function displayForecast(data) {
             </div>
         `;
     });
+
+    forecastElement.innerHTML = forecastHTML;
 }
 
 // Load the weather data when the page loads
